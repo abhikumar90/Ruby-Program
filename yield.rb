@@ -9,9 +9,9 @@ class Person
     end
   end
 
-# person = Person.new("Oscar")
+ person = Person.new("Oscar")
        
- # person.do_with_name do |name|  
-   # puts "hii my name is #{name}"
-#  end
+  person.do_with_name do |name|  
+    puts "hii my name is #{name}"
+  end
  
